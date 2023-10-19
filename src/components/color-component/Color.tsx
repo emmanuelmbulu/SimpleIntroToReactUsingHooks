@@ -63,7 +63,7 @@ export default class Color extends React.Component {
     }
 
     handleClick = () => {
-        const rootElement: Root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+        const rootElement: Root = ReactDOM.createRoot(document.getElementById('color-component') as HTMLElement);
         rootElement.unmount();
     }
 

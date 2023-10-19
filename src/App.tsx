@@ -8,14 +8,14 @@ import CursorComponent from "./components/cursor-component/CursorComponent";
 
 function App() {
   return (
-      <Container extraCSSClasses="row">
-        <Container extraCSSClasses="col-md-6">
+      <Container id={'app-container'} extraCSSClasses="row">
+        <Container id={'color-component'} extraCSSClasses="col-md-6">
             <Color />
         </Container>
-        <Container extraCSSClasses="col-md-6">
+        <Container id={'counter-component'} extraCSSClasses="col-md-6">
             <BasicCounter />
         </Container>
-        <Container extraCSSClasses="col-md-6">
+        <Container id={'cursor-component'} extraCSSClasses="col-md-6">
             <CursorComponent />
         </Container>
       </Container>
